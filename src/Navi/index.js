@@ -14,6 +14,7 @@ function  RootNativation() {
             }}>
                 <Stack.Screen name="Login" component={Login} />
                 <Stack.Screen name="Products" component={Products} />
+          <Stack.Screen name="ProductDetail" component={ProductDetail} />
             </Stack.Navigator>
         </NavigationContainer>
     )
